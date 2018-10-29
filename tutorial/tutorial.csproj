@@ -218,6 +218,18 @@
     <Compile Include="Migrations\201810252033011_PopulateGenreTable.Designer.cs">
       <DependentUpon>201810252033011_PopulateGenreTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810291359219_addForeignKeyPropertiesToGig.cs" />
+    <Compile Include="Migrations\201810291359219_addForeignKeyPropertiesToGig.Designer.cs">
+      <DependentUpon>201810291359219_addForeignKeyPropertiesToGig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810291808048_addForeignKeyPropertiesToGig1.cs" />
+    <Compile Include="Migrations\201810291808048_addForeignKeyPropertiesToGig1.Designer.cs">
+      <DependentUpon>201810291808048_addForeignKeyPropertiesToGig1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810291810041_addForeignKeyPropertiesToGig2.cs" />
+    <Compile Include="Migrations\201810291810041_addForeignKeyPropertiesToGig2.Designer.cs">
+      <DependentUpon>201810291810041_addForeignKeyPropertiesToGig2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -315,6 +327,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810252033011_PopulateGenreTable.resx">
       <DependentUpon>201810252033011_PopulateGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810291359219_addForeignKeyPropertiesToGig.resx">
+      <DependentUpon>201810291359219_addForeignKeyPropertiesToGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810291808048_addForeignKeyPropertiesToGig1.resx">
+      <DependentUpon>201810291808048_addForeignKeyPropertiesToGig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810291810041_addForeignKeyPropertiesToGig2.resx">
+      <DependentUpon>201810291810041_addForeignKeyPropertiesToGig2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
